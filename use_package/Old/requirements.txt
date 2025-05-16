@@ -1,0 +1,41 @@
+# === Python Version Requirement ===
+# Python 3.10.16
+
+# === Core Dependencies ===
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# === GUI & Visualization ===
+wxPython>=4.2.0
+matplotlib>=3.7.0
+
+# === CLI & System Tools === 
+click>=8.0.0
+psutil>=5.9.0
+pywin32>=305
+
+# === Hardware Communication ===
+seabreeze[pyseabreeze]
+./packages/wo_systems_devices-1.1.0-py3-none-any.whl
+./packages/wo_systems_pcprotocol-1.3.4-py3-none-any.whl
+
+# === Data Processing ===
+colour-science>=0.4.0
+
+# === Excel Integration ===
+openpyxl>=3.1.0     # For xlsx files
+pyxlsb>=1.0.10      # For xlsb files
+# xlwings>=0.30.0   # Excel automation package (disabled due to xlwings.xlam being detected as malware)
+
+# === Development & Testing ===
+jupyter             # Development environment
+pyinstaller>=5.13.0 # Packaging tool
+pefile>=2023.2.7    # PE file manipulation
+pylint>=2.17.0      # Code quality checker
+pipreqs>=0.4.13     # Requirements generator
+pip-audit>=2.6.1    # Security auditing
+
+# === Remote Access ===
+paramiko>=3.3.1     # SSH implementation
+asyncssh>=2.14.2    # Asynchronous SSH implementation
