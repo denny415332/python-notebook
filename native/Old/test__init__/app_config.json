@@ -1,0 +1,13 @@
+{
+    "app_name": "我的應用",
+    "database": {
+        "host": "localhost",
+        "port": 5432,
+        "user": "admin"
+    },
+    "users": [
+        "小明",
+        "小華",
+        "小美"
+    ]
+}
